@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Mooshroom%20Spawn"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Mooshroom%20Spawn"
 logoFile="icon.png"
 
 [[mods]]
 modId="mooshroomspawn"
-version="3.4"
+version="3.5"
 displayName="Mooshroom Spawn"
-displayURL="https://curseforge.com/minecraft/mc-mods/mooshroom-spawn"
+displayURL="https://serilum.com/mod/mooshroom-spawn"
 authors="Rick South"
 description='''Adds a chance for mooshrooms to spawn naturally everywhere in place of a cow.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.mooshroomspawn]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.mooshroomspawn]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.19.2]"
     ordering="NONE"
