@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.mooshroomspawn.forge.mixin",
+  "package": "com.natamus.mooshroomspawn.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "mooshroomspawn_forge.refmap.json",
   "mixins": [
 
   ],
