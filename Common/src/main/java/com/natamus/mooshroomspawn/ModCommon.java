@@ -2,7 +2,7 @@ package com.natamus.mooshroomspawn;
 
 import com.natamus.collective.objects.SAMObject;
 import com.natamus.mooshroomspawn.config.ConfigHandler;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 
 public class ModCommon {
 
@@ -12,6 +12,6 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		new SAMObject(EntityType.COW, EntityType.MOOSHROOM, null, ConfigHandler.chanceCowIsMooshroom, false, false, false);
+		new SAMObject(EntityTypes.COW, EntityTypes.MOOSHROOM, null, ConfigHandler.chanceCowIsMooshroom, false, false, false);
 	}
 }
