@@ -1,9 +1,9 @@
-package com.natamus.mooshroomspawn;
+package com.serilum.mooshroomspawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.mooshroomspawn.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.mooshroomspawn.util.Reference;
+import com.serilum.mooshroomspawn.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.mooshroomspawn.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;

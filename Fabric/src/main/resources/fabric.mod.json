@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "mooshroomspawn",
-  "version": "3.6",
+  "version": "3.7",
 
   "name": "Mooshroom Spawn",
   "description": "Adds a chance for mooshrooms to spawn naturally everywhere in place of a cow.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/mooshroom-spawn",
     "sources": "https://github.com/Serilum/Mooshroom-Spawn",
@@ -16,14 +16,14 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.mooshroomspawn.ModFabric" ], "modmenu": [ "com.natamus.mooshroomspawn.fabric.config.IntegrateModMenu" ] },
+  "entrypoints": { "main": [ "com.serilum.mooshroomspawn.ModFabric" ], "modmenu": [ "com.serilum.mooshroomspawn.fabric.config.IntegrateModMenu" ] },
 
   "depends": {
     "fabricloader": ">=0.18.0",
     "fabric-api": "*",
     "minecraft": ">=26.3",
     "java": ">=25",
-    "collective": ">=8.39"
+    "collective": ">=8.40"
   },
 
   "custom": {
@@ -38,7 +38,7 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
