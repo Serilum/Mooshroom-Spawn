@@ -1,7 +1,7 @@
-package com.natamus.mooshroomspawn;
+package com.serilum.mooshroomspawn;
 
 import com.natamus.collective.objects.SAMObject;
-import com.natamus.mooshroomspawn.config.ConfigHandler;
+import com.serilum.mooshroomspawn.config.ConfigHandler;
 import net.minecraft.world.entity.EntityTypes;
 
 public class ModCommon {
