@@ -15,7 +15,9 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		samObject = new SAMObject(EntityTypes.COW, EntityTypes.MOOSHROOM, null, ConfigHandler.chanceCowIsMooshroom, false, false, false, false, false, Integer.MAX_VALUE);
+		samObject = new SAMObject(EntityTypes.COW, EntityTypes.MOOSHROOM, null, ConfigHandler.chanceCowIsMooshroom, false, false, ConfigHandler.onlySpawnMooshroomsOnSurface, false, false, Integer.MAX_VALUE);
+		samObject.dimensionIds = ConfigHandler.dimensionsToSpawnIn;
+		samObject.biomeIds = ConfigHandler.biomesToSpawnIn;
 
 		ConfigCallback.CONFIG_CHANGED.register((String modid) -> {
 			if (!modid.equals(Reference.MOD_ID)) {
@@ -23,6 +25,9 @@ public class ModCommon {
 			}
 
 			samObject.changeChance = ConfigHandler.chanceCowIsMooshroom;
+			samObject.onlyOnSurface = ConfigHandler.onlySpawnMooshroomsOnSurface;
+			samObject.dimensionIds = ConfigHandler.dimensionsToSpawnIn;
+			samObject.biomeIds = ConfigHandler.biomesToSpawnIn;
 		});
 	}
 }
