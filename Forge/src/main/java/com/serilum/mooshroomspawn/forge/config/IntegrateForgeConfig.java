@@ -1,7 +1,7 @@
-package com.natamus.mooshroomspawn.forge.config;
+package com.serilum.mooshroomspawn.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.mooshroomspawn.util.Reference;
+import com.serilum.mooshroomspawn.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
